@@ -143,3 +143,17 @@ function thePowerOf(dasar, angkaPangkat) {
     return result;
 }
 console.log(thePowerOf(dasar, angkaPangkat));
+
+let nama2 = "waldo";
+
+function cariVokal(name){
+    let count = 0;
+    for(let i = 0; i < name.length ; i++){
+        if(name[i] == "a" || name[i] =="i" || name[i] =="u" || name[i] =="e" || name[i] =="o"){
+            count+=1    
+        }
+    }
+    return count;
+}
+
+console.log(cariVokal(nama2));
