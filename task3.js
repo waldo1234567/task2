@@ -75,9 +75,8 @@ let pengurangan = subtraction(num1, num2);
 let num3 = 6;
 let num4 = 2;
 
-function multipication(num1, num2) {
+function multipication(num3, num4) {
     return console.log(num3 * num4);
-
 }
 
 let perkalian = multipication(num3, num4);
@@ -124,16 +123,21 @@ function random() {
 }
 console.log(random());
 
+// let celcius = 30;
 
-let celcius = 30;
+// function toFarenheit(celcius) {
+//     let result = (celcius * 9 / 5) + 32;
+//     return result;
+// }
+// let farenheit = toFarenheit(celcius);
+// console.log(`${celcius} celcius is ${farenheit} in fareheit`);
 
-function toFarenheit(celcius) {
-    let result = (celcius * 9 / 5) + 32;
-    return result;
+const toFrht = function(celcius){
+    const rslt = (celcius * 9 / 5) + 32;
+    return rslt;
 }
 
-let farenheit = toFarenheit(celcius);
-console.log(`${celcius} celcius is ${farenheit} in fareheit`);
+console.log(toFrht(30));
 
 let dasar = 2;
 let angkaPangkat = 4;
